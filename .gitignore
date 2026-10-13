@@ -1,0 +1,16 @@
+# Virtual Environment (NEVER push to GitHub)
+.venv/
+venv/
+ENV/
+env/
+
+# Python Caches & Build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Large Model Checkpoints & Data (Optional/Recommended)
+data/raw/
+data/processed/
